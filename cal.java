@@ -9,6 +9,7 @@ public class cal {
 
        int add = addition(x,y);
        int sub = sub(x,y);
+       int mu  = multi(x,y);
    }
 
    public int addition(int x , int y) 
@@ -20,6 +21,11 @@ public class cal {
    { 
       return x-y;
    }
+   public int sub(int x , int y) 
+   { 
+      return x*y;
+   }
+
    
    
    
