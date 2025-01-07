@@ -8,13 +8,19 @@ public class cal {
        int y = sc.nextInt();
 
        int add = addition(x,y);
-
+       int sub = sub(x,y);
    }
 
    public int addition(int x , int y) 
    { 
       return x+y;
    }
+
+   public int sub(int x , int y) 
+   { 
+      return x-y;
+   }
+   
    
    
 }
